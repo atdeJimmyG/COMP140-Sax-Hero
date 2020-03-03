@@ -8,6 +8,8 @@ public class NoteObj : MonoBehaviour {
 
     public KeyCode KeyToPress;
 
+    public GameObject Empty;
+
     void Update() {
         if (Input.GetKeyDown(KeyToPress)) {
             if (canBePressed) {
@@ -15,6 +17,10 @@ public class NoteObj : MonoBehaviour {
 
                 GameManager.instance.NoteHit();
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            Instantiate(Empty, transform.position, transform.rotation);
         }
     }
 

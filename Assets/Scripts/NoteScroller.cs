@@ -15,7 +15,7 @@ public class NoteScroller : MonoBehaviour
         beatTempo = beatTempo / 60f;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (!hasStarted) {
            /* if (Input.anyKeyDown) {
@@ -24,7 +24,7 @@ public class NoteScroller : MonoBehaviour
 
         }
         else {
-            transform.position -= new Vector3(beatTempo * Time.deltaTime, 0f, 0f);
+            transform.position -= new Vector3(beatTempo * Time.fixedDeltaTime, 0f, 0f);
         }
     }
 }
