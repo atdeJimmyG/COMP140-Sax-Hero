@@ -19,9 +19,10 @@ public class NoteObj : MonoBehaviour {
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Space)) {
+        // Place note using space
+        /*if (Input.GetKeyDown(KeyCode.Space)) {
             Instantiate(Empty, transform.position, transform.rotation);
-        }
+        }*/
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
