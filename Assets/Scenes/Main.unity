@@ -207,7 +207,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 52
-  Empty: {fileID: 0}
 --- !u!58 &4232695
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -224,6 +223,85 @@ CircleCollider2D:
   m_Offset: {x: -0.017988801, y: 0}
   serializedVersion: 2
   m_Radius: 0.17
+--- !u!1 &5113844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5113846}
+  - component: {fileID: 5113845}
+  m_Layer: 0
+  m_Name: Breath Button (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &5113845
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5113844}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 1, g: 0.75686276, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &5113846
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5113844}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 88.80724, y: 3.0745282, z: 0}
+  m_LocalScale: {x: 34.6, y: 3.1, z: 5}
+  m_Children: []
+  m_Father: {fileID: 84665645}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &42740288
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,7 +382,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2125296781}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &42740291
 MonoBehaviour:
@@ -320,7 +398,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defultImage: {fileID: 21300000, guid: e1f749ecd1bf1aa4d8ac9ec6cd8537cd, type: 3}
   pressedImage: {fileID: 21300000, guid: ae5bfd4f705778b43a9f2914145dd583, type: 3}
-  KeyToPress: 50
 --- !u!50 &42740292
 Rigidbody2D:
   serializedVersion: 4
@@ -479,7 +556,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
+--- !u!1 &84665644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 84665645}
+  m_Layer: 0
+  m_Name: BREATH NOTES
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &84665645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84665644}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.2772455, y: 5.0264716, z: -0.09375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 476306764}
+  - {fileID: 1657904596}
+  - {fileID: 266018442}
+  - {fileID: 800699041}
+  - {fileID: 5113846}
+  - {fileID: 2096855717}
+  m_Father: {fileID: 492121304}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &104443391
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,7 +632,7 @@ Transform:
   - {fileID: 420781338}
   - {fileID: 1540408581}
   m_Father: {fileID: 492121304}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &164044717
 GameObject:
@@ -633,7 +745,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &231116422
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,7 +840,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &231116426
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -841,7 +951,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 51
-  Empty: {fileID: 0}
 --- !u!58 &236738284
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -969,7 +1078,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &238653395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1144,7 +1252,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &263020802
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1161,6 +1268,164 @@ CircleCollider2D:
   m_Offset: {x: -0.017988801, y: 0}
   serializedVersion: 2
   m_Radius: 0.17
+--- !u!1 &266018440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 266018442}
+  - component: {fileID: 266018441}
+  m_Layer: 0
+  m_Name: Breath Button (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &266018441
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266018440}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 1, g: 0.75686276, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &266018442
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266018440}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 67.957245, y: 3.0745282, z: 0}
+  m_LocalScale: {x: 98.9, y: 3.1, z: 5}
+  m_Children: []
+  m_Father: {fileID: 84665645}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &295836301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 295836302}
+  - component: {fileID: 295836303}
+  m_Layer: 0
+  m_Name: Breath Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &295836302
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295836301}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -3.0010004, y: -0.10400009, z: -0.09375}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_Children: []
+  m_Father: {fileID: 2125296781}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &295836303
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295836301}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 1, g: 0.75686276, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &325538175
 GameObject:
   m_ObjectHideFlags: 0
@@ -1351,7 +1616,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &335185279
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,7 +1696,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2125296781}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &335185282
 MonoBehaviour:
@@ -1448,7 +1712,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defultImage: {fileID: 21300000, guid: 2585f5648971eb0459fd14735c6b0985, type: 3}
   pressedImage: {fileID: 21300000, guid: ba3c4310e2eca80448c3f97f6bdea230, type: 3}
-  KeyToPress: 52
 --- !u!50 &335185283
 Rigidbody2D:
   serializedVersion: 4
@@ -1591,7 +1854,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 51
-  Empty: {fileID: 0}
 --- !u!58 &367133130
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1703,7 +1965,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &372254136
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1831,7 +2092,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &420781337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1927,7 +2187,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 51
-  Empty: {fileID: 0}
 --- !u!58 &420781341
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2024,7 +2283,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2125296781}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &450328917
 MonoBehaviour:
@@ -2040,7 +2299,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defultImage: {fileID: 21300000, guid: d6774d66bf528424eb0aeba15a5bf69e, type: 3}
   pressedImage: {fileID: 21300000, guid: bbccd9715e699054786e93a4f5825c35, type: 3}
-  KeyToPress: 51
 --- !u!50 &450328918
 Rigidbody2D:
   serializedVersion: 4
@@ -2088,6 +2346,85 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.51}
   m_EdgeRadius: 0
+--- !u!1 &476306762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 476306764}
+  - component: {fileID: 476306763}
+  m_Layer: 0
+  m_Name: Breath Button (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &476306763
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476306762}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 1, g: 0.75686276, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &476306764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476306762}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 47.027245, y: 3.0745282, z: 0}
+  m_LocalScale: {x: 31.07, y: 3.1, z: 5}
+  m_Children: []
+  m_Father: {fileID: 84665645}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &492121303
 GameObject:
   m_ObjectHideFlags: 0
@@ -2113,9 +2450,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 492121303}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0, z: 0}
+  m_LocalPosition: {x: 0.32, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 84665645}
   - {fileID: 522726982}
   - {fileID: 1129498332}
   - {fileID: 104443392}
@@ -2248,7 +2586,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &513961694
 GameObject:
   m_ObjectHideFlags: 0
@@ -2344,7 +2681,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &513961698
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2665,7 +3001,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 52
-  Empty: {fileID: 0}
 --- !u!58 &521967992
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2732,7 +3067,7 @@ Transform:
   - {fileID: 387881710}
   - {fileID: 1936382536}
   m_Father: {fileID: 492121304}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &591467835
 GameObject:
@@ -2829,7 +3164,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &591467839
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2941,7 +3275,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &624852241
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3069,7 +3402,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &690328014
 GameObject:
   m_ObjectHideFlags: 0
@@ -3181,7 +3513,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &704938965
 GameObject:
   m_ObjectHideFlags: 0
@@ -3277,7 +3608,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &704938969
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3405,7 +3735,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &710722905
 GameObject:
   m_ObjectHideFlags: 0
@@ -3501,7 +3830,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &710722909
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3613,7 +3941,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &714055653
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3725,7 +4052,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 51
-  Empty: {fileID: 0}
 --- !u!58 &722573657
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4130,6 +4456,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766832845}
   m_CullTransparentMesh: 0
+--- !u!1 &800699039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 800699041}
+  - component: {fileID: 800699040}
+  m_Layer: 0
+  m_Name: Breath Button (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &800699040
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800699039}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 1, g: 0.75686276, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &800699041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800699039}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 80.597244, y: 3.0745282, z: 0}
+  m_LocalScale: {x: 34.6, y: 3.1, z: 5}
+  m_Children: []
+  m_Father: {fileID: 84665645}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &840372478
 GameObject:
   m_ObjectHideFlags: 0
@@ -4352,7 +4757,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 51
-  Empty: {fileID: 0}
 --- !u!58 &856579579
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4464,7 +4868,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &872159304
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4655,7 +5058,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &906261810
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4767,7 +5169,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &940978214
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4895,7 +5296,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &980266594
 GameObject:
   m_ObjectHideFlags: 0
@@ -4991,7 +5391,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &980266598
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5103,7 +5502,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 52
-  Empty: {fileID: 0}
 --- !u!58 &986864571
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5215,7 +5613,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 51
-  Empty: {fileID: 0}
 --- !u!58 &1031846877
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5327,7 +5724,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 52
-  Empty: {fileID: 0}
 --- !u!58 &1115564878
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5439,7 +5835,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &1125058901
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5503,7 +5898,7 @@ Transform:
   - {fileID: 1490822388}
   - {fileID: 591467836}
   m_Father: {fileID: 492121304}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1160336783
 GameObject:
@@ -5695,7 +6090,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &1289099011
 GameObject:
   m_ObjectHideFlags: 0
@@ -5791,7 +6185,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 52
-  Empty: {fileID: 0}
 --- !u!58 &1289099015
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5982,7 +6375,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 51
-  Empty: {fileID: 0}
 --- !u!58 &1357422434
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6189,7 +6581,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &1476085025
 GameObject:
   m_ObjectHideFlags: 0
@@ -6301,7 +6692,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &1490822387
 GameObject:
   m_ObjectHideFlags: 0
@@ -6397,7 +6787,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &1490822391
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6525,7 +6914,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &1502742404
 GameObject:
   m_ObjectHideFlags: 0
@@ -6637,7 +7025,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &1531892666
 GameObject:
   m_ObjectHideFlags: 0
@@ -6733,7 +7120,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 51
-  Empty: {fileID: 0}
 --- !u!58 &1531892670
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6845,7 +7231,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 51
-  Empty: {fileID: 0}
 --- !u!58 &1540408584
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6957,7 +7342,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 51
-  Empty: {fileID: 0}
 --- !u!58 &1548969900
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7069,7 +7453,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 52
-  Empty: {fileID: 0}
 --- !u!58 &1554769546
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7181,7 +7564,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &1593103131
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7413,7 +7795,7 @@ Transform:
   - {fileID: 4232692}
   - {fileID: 1115564875}
   m_Father: {fileID: 492121304}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1638835257
 GameObject:
@@ -7526,7 +7908,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &1650072582
 GameObject:
   m_ObjectHideFlags: 0
@@ -7638,7 +8019,85 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
+--- !u!1 &1657904594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1657904596}
+  - component: {fileID: 1657904595}
+  m_Layer: 0
+  m_Name: Breath Button (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1657904595
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657904594}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 1, g: 0.75686276, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1657904596
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657904594}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 55.387245, y: 3.0745282, z: 0}
+  m_LocalScale: {x: 33.5, y: 3.1, z: 5}
+  m_Children: []
+  m_Father: {fileID: 84665645}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1664121617
 GameObject:
   m_ObjectHideFlags: 0
@@ -7750,7 +8209,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &1665987925
 GameObject:
   m_ObjectHideFlags: 0
@@ -7912,7 +8370,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 51
-  Empty: {fileID: 0}
 --- !u!58 &1677351951
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8040,7 +8497,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &1773244680
 GameObject:
   m_ObjectHideFlags: 0
@@ -8136,7 +8592,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &1773244684
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8501,7 +8956,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &1954822625
 GameObject:
   m_ObjectHideFlags: 0
@@ -8582,7 +9036,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2125296781}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1954822628
 MonoBehaviour:
@@ -8598,7 +9052,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defultImage: {fileID: 21300000, guid: d253b835a42912c40a88f1364dc63af4, type: 3}
   pressedImage: {fileID: 21300000, guid: 2015e5f594ac5214b85d58461cb7b97d, type: 3}
-  KeyToPress: 49
 --- !u!50 &1954822629
 Rigidbody2D:
   serializedVersion: 4
@@ -8820,7 +9273,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 51
-  Empty: {fileID: 0}
 --- !u!58 &1973445306
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8948,7 +9400,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}
 --- !u!1 &1982387919
 GameObject:
   m_ObjectHideFlags: 0
@@ -9123,7 +9574,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &1989536311
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9472,7 +9922,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 50
-  Empty: {fileID: 0}
 --- !u!58 &2075171957
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9489,6 +9938,85 @@ CircleCollider2D:
   m_Offset: {x: -0.017988801, y: 0}
   serializedVersion: 2
   m_Radius: 0.17
+--- !u!1 &2096855715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2096855717}
+  - component: {fileID: 2096855716}
+  m_Layer: 0
+  m_Name: Breath Button (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &2096855716
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096855715}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 1, g: 0.75686276, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &2096855717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096855715}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 105.667244, y: 3.0745282, z: 0}
+  m_LocalScale: {x: 156.6, y: 3.1, z: 5}
+  m_Children: []
+  m_Father: {fileID: 84665645}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2125296780
 GameObject:
   m_ObjectHideFlags: 0
@@ -9516,6 +10044,7 @@ Transform:
   m_LocalPosition: {x: -6.51, y: 5.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 295836302}
   - {fileID: 450328916}
   - {fileID: 42740290}
   - {fileID: 335185281}
@@ -9634,4 +10163,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   KeyToPress: 49
-  Empty: {fileID: 0}

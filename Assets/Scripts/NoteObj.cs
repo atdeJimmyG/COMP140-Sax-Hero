@@ -7,8 +7,7 @@ public class NoteObj : MonoBehaviour {
     public bool canBePressed;
 
     public KeyCode KeyToPress;
-
-    public GameObject Empty;
+    
 
     void Update() {
         if (Input.GetKeyDown(KeyToPress)) {
